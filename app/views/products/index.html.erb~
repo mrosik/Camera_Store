@@ -4,7 +4,7 @@
 <tr>
 <td>
 <div class="image">
-<%= link_to (image_tag product.product_image), product %>
+<%= link_to (image_tag product.model_image_url), product %>
 </div>
 </td>
 <td>

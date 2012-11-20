@@ -1,13 +1,11 @@
 CameraStore::Application.routes.draw do
   get "site/about"
+
   get "site/contact"
+
   get "site/home"
+
   get "cart/index"
-
-match '/about' => 'site#about'
-match '/contact' => 'site#contact'
-match '/home' => 'site#home'
-
 
 get "cart/index"
 get "site/about"
